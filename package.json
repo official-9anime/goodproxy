@@ -4,9 +4,12 @@
   "description": "A Vercel serverless function that proxies requests and returns HTML content as plain text.",
   "main": "api/api-text.ts",
   "scripts": {
-    "start": "vercel dev"
+    "start": "vercel dev",
+    "build": "vercel build",
+    "deploy": "vercel"
   },
   "dependencies": {
-    "axios": "^1.4.0"
+    "puppeteer-core": "^20.0.0",
+    "chrome-aws-lambda": "^10.1.0"
   }
 }
