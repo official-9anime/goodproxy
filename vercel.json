@@ -11,5 +11,6 @@
       "src": "/api-text",
       "dest": "/api/api-text.ts"
     }
-  ]
+  ],
+  "installCommand": "npm install --legacy-peer-deps"
 }
